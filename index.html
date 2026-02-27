@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Te Amo Karen ❤️</title>
+
+<style>
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background:black;
+    color:white;
+    text-align:center;
+    overflow-x:hidden;
+}
+
+/* Pantalla inicial */
+#inicio{
+    position:fixed;
+    width:100%;
+    height:100vh;
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:10;
+    animation: desaparecer 4s forwards;
+    padding:20px;
+}
+
+#inicio h1{
+    font-size:2.2rem;
+    color:#ff4d6d;
+    animation: latido 1s infinite;
+}
+
+@keyframes latido{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.15);}
+    100%{transform:scale(1);}
+}
+
+@keyframes desaparecer{
+    0%{opacity:1;}
+    80%{opacity:1;}
+    100%{opacity:0; visibility:hidden;}
+}
+
+/* Fondo estrellas */
+.stars{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:url('https://www.transparenttextures.com/patterns/stardust.png');
+    animation: moveStars 80s linear infinite;
+    z-index:-1;
+}
+
+@keyframes moveStars{
+    from{background-position:0 0;}
+    to{background-position:8000px 4000px;}
+}
+
+/* Contenido principal */
+.contenedor{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:25px 20px;
+}
+
+h2{
+    font-size:1.5rem;
+    margin-bottom:15px;
+}
+
+.nombre{
+    font-size:1.6rem;
+    font-weight:bold;
+    background: linear-gradient(45deg, #ff4d6d, #ff99c8, #ffffff);
+    background-size:300% 300%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation: brillo 4s ease infinite, flotar 3s ease-in-out infinite;
+    margin-bottom:20px;
+}
+
+@keyframes brillo{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+@keyframes flotar{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-6px);}
+    100%{transform:translateY(0);}
+}
+
+p{
+    font-size:1rem;
+    line-height:1.6;
+    max-width:500px;
+}
+
+iframe{
+    width:100%;
+    max-width:400px;
+    height:200px;
+    margin-top:25px;
+    border-radius:15px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="inicio">
+    <h1>💖 TE AMO KAREN 💖</h1>
+</div>
+
+<div class="stars"></div>
+
+<div class="contenedor">
+    <h2>Para Mi Amor</h2>
+
+    <div class="nombre">
+        Karen Nicol Morales Barrera
+    </div>
+
+    <p>
+       Mi niña hermosa , baby
+        tú eres la estrella más brillante de mi universo,
+        el faro q ilumina mi camino, el sol q alumbra mis
+        dias, el motivo de mis risas, alegrias y mi felicidad
+        baby no necesito a nadie más q no seas tu xq tu me
+        haces sentir especial, para mi los dias son muy bonitos
+        xq estas a mi lado amandome cada dia más y más..
+        se q ya no somos pareja pero para mi lo seguimos 
+        siendo xq me sigues tratando igual como la haz echo
+        bb , agradezco cada risa , alegria y momento a tu lado 
+        todo eso para mi es un gran motivo para seguir amandote
+        como lo eh estado haciendo , mi niña para mi eres 
+        una mujer espectacular y unica no encontrare nadie 
+        como tu xq eres unica mi niña <3 
+        alegras cada mes , dia , hora , minuto , segundo , y 
+        milisegundos de mi vida 
+        mi amor es imposible no seguir amandote dia a dia
+        xq me enamoras x como eres , tu personalidad , sencilles
+        y tu amor x mi 
+        baby sin ti no soy nada xq eres mi vida entera y
+        xq eres la mujer con la quiero pasar toda la vida
+        envejeciendo juntos y todo juntos bb
+        mi amorcito sabes q eres el amor de mi vida
+        y tambien q si no eres tu no es nadie
+        mi vida quiero q cumplamos las metas
+        y tambien quiero hacerte cumplir el sueño q 
+        tuviste un dia cuando me contaste mi amor
+        ay amorcito literalmente cuando escribo para ti
+        las palabras son infinitas y no acaban
+        pero para terminar mi amor eres el amor de mi vida
+        la mujer q cuida mi espalda todos los dias , la mujer q 
+        me hace feliz y la mujer q amo como buzz lithyear
+        al infinito y más alla
+        te amo y te amare para toda mi vida en esta vida y
+        en las siguientes mi amor , te amooooooooooo
+        muchoteeee mi blanquita hermosa<3
+        x siempre juntos mi amor #7 💕
+    </p>
+
+    <iframe
+        src="https://www.youtube.com/embed/MQTaFDBG_Xg?autoplay=1&loop=1&playlist=MQTaFDBG_Xg"
+        title="Serenata Sin Luna"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+    </iframe>
+
+</div>
+
+</body>
+</html>
